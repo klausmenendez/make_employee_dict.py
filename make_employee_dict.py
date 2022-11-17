@@ -17,13 +17,13 @@ class Employee:
     def get_name(self):  # return employee name
         return self._name
 
-    def _ID_number(self):  # return id
+    def get_ID_number(self):  # return id
         return self._id_number
 
-    def _salary(self):    # return employees salary
+    def get_salary(self):    # return employees salary
         return self._salary
 
-    def _email_address(self):  # returns email address
+    def get_email_address(self):  # returns email address
         return self._email_address
 
 
