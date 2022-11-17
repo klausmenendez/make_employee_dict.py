@@ -14,16 +14,16 @@ class Employee:
         self._salary = salary
         self._email_address = email_address
 
-    def get_name(self):  # return employee name
+    def name(self):  # return employee name
         return self._name
 
-    def get_id_number(self):  # return id
+    def id_number(self):  # return id
         return self._id_number
 
-    def get_salary(self):    # return employees salary
+    def salary(self):    # return employees salary
         return self._salary
 
-    def get_email_address(self):  # returns email address
+    def email_address(self):  # returns email address
         return self._email_address
 
 
