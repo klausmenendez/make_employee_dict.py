@@ -9,22 +9,22 @@ class Employee:
         Creates employee object with name, id number, salary and email address
 
         '''
-        self._name = name
-        self._id_number = id_number
-        self._salary = salary
-        self._email_address = email_address
+        self.__name = name
+        self.__id_number = id_number
+        self.__salary = salary
+        self.__email_address = email_address
 
     def get_name(self):  # return employee name
-        return self._name
+        return self.__name
 
     def get_ID_number(self):  # return id
-        return self._id_number
+        return self.__id_number
 
     def get_salary(self):    # return employees salary
-        return self._salary
+        return self.__salary
 
     def get_email_address(self):  # returns email address
-        return self._email_address
+        return self.__email_address
 
 
 id_database = {}
